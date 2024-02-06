@@ -4,7 +4,7 @@ import {View, Text, StyleSheet, Button} from 'react-native';
 function Counter() {
   return (
     <View style={styles.wrapper}>
-      <View style={styles.wrapper}>
+      <View style={styles.numberArea}>
         <Text style={styles.number}>0</Text>
       </View>
       <Button title="+1" />
