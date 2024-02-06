@@ -2,7 +2,7 @@ import React from 'react';
 import {View, StyleSheet} from 'react-native';
 
 function Box(props) {
-  return <View style={[styles.box, styles.rounded]} />;
+  return <View style={[styles.box, props.rounded ? styles.rounded : null]} />;
 }
 
 const styles = StyleSheet.create({
