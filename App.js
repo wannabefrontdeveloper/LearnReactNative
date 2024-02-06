@@ -1,15 +1,13 @@
 import React from 'react';
-import {SafeAreaView, View, Text} from 'react-native';
+import {SafeAreaView} from 'react-native';
+import Greeting from './components/Greetings';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <View>
-        <Text>Hello React!</Text>
-      </View>
+      <Greeting />
     </SafeAreaView>
   );
 };
 
 export default App;
-// 파일 끝에 개행 문자 추가
