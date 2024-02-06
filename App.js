@@ -5,7 +5,7 @@ import Greeting from './components/Greetings';
 const App = () => {
   return (
     <SafeAreaView>
-      <Greeting />
+      <Greeting name="Props" />
     </SafeAreaView>
   );
 };
